@@ -11,11 +11,41 @@
     text-align: center;
 }
 
+@keyframes headingText {
+     0% {
+        color: aqua;
+    }
+
+    17% {
+        color: #00ff88;
+    }
+
+    34% {
+        color: #ffcc00;
+    }
+
+    50% {
+        color: #ff0066;
+    }
+    67%{
+        color: #ffcc00;
+    }
+    84%{
+        color: #00ff88;
+    }
+    100%{
+        color: aqua;
+    }
+}
+
+
 #heading_txt{
+    color: aqua;
     line-height: 40px;
     font-size: 35px;
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: headingText 3s infinite;
 }
 
 .icons{
@@ -141,3 +171,4 @@ footer{
     border: black solid 2px;
     border-radius: 10px;
 }
+
